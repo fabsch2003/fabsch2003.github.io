@@ -690,24 +690,24 @@ a {
 }
 .cid-sstRrSynhe {
   display: flex;
-  background-image: url("../../../assets/images/background12.jpg");
+  background-image: url("../../../assets/images/grey-background-texture-1024x768.jpg");
 }
 .cid-sstRrSynhe .mbr-overlay {
   background-color: #353535;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .cid-sstRrSynhe .content-wrap {
   padding: 5rem 1rem;
 }
 @media (min-width: 768px) {
   .cid-sstRrSynhe {
-    align-items: flex-end;
+    align-items: center;
   }
   .cid-sstRrSynhe .row {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .cid-sstRrSynhe .content-wrap {
-    width: 51%;
+    width: 27%;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -726,5 +726,70 @@ a {
   }
   .cid-sstRrSynhe .content-wrap {
     width: 100%;
+  }
+}
+.cid-sstSRV8mPq {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #bbbbbb;
+}
+@media (min-width: 1500px) {
+  .cid-sstSRV8mPq .container {
+    max-width: 1400px;
+  }
+}
+.cid-sstSRV8mPq .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #353535;
+  margin-bottom: 2rem;
+}
+.cid-sstSRV8mPq .card-wrapper {
+  margin-top: 3rem;
+}
+.cid-sstSRV8mPq .row {
+  justify-content: center;
+}
+.cid-sstVObJTB0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-sstVObJTB0 .media-container-row {
+  justify-content: space-between;
+}
+.cid-sstVObJTB0 .text-content {
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+  .cid-sstVObJTB0 .text-content {
+    max-width: none;
+  }
+}
+.cid-sstVObJTB0 .mbr-iconfont-social {
+  margin: 0.5rem;
+  font-size: 32px;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #232323;
+  border: 2px solid #232323;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-sstVObJTB0 .mbr-iconfont-social:before {
+  padding: 0.6rem;
+}
+.cid-sstVObJTB0 .mbr-iconfont-social:hover {
+  background-color: #232323;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .cid-sstVObJTB0 .icons {
+    justify-content: center !important;
+  }
+  .cid-sstVObJTB0 .text-content * {
+    text-align: center;
   }
 }
