@@ -753,7 +753,7 @@ a {
 .cid-sstSRV8mPq {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1440.jpg");
 }
 @media (min-width: 1500px) {
   .cid-sstSRV8mPq .container {
@@ -940,8 +940,6 @@ a {
 .cid-ssu2Ccn9uR {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-ssu2Ccn9uR nav.navbar {
   position: fixed;
@@ -1041,8 +1039,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #232323;
+  position: absolute;
+  background: rgba(35, 35, 35, 0);
 }
 .cid-ssu2Ccn9uR .navbar.opened {
   transition: all 0.3s;
@@ -1068,7 +1066,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-ssu2Ccn9uR .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
+    max-height: calc(98.5vh - 3.8rem);
   }
 }
 .cid-ssu2Ccn9uR .navbar.collapsed .dropdown-menu .dropdown-submenu {
