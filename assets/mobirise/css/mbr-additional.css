@@ -1040,7 +1040,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(35, 35, 35, 0);
+  background: #232323;
 }
 .cid-ssu2Ccn9uR .navbar.opened {
   transition: all 0.3s;
@@ -1066,7 +1066,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-ssu2Ccn9uR .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 3rem);
   }
 }
 .cid-ssu2Ccn9uR .navbar.collapsed .dropdown-menu .dropdown-submenu {
