@@ -2,12 +2,12 @@ const btn = document.querySelector("button.mobile-menu-button");
 const menu = document.querySelector(".mobile-menu");
 
 //get value (true/false) from session storage. add/remove class
-localStorage.getItem('mobileMenuHidden') ? menu.classList.add("hidden") : menu.classList.remove("hidden");
+sessionStorage.getItem('mobileMenuHidden') ? menu.classList.add("hidden") : menu.classList.remove("hidden");
 
 btn.addEventListener("click", ()=>{
   menu.classList.toggle("hidden");
   //set value (true/false) in session storage. 
-  localeStorage.setItem('MobileMenuHidden', menu.classList.contains("hidden"))
+  sessionStorage.setItem('mobileMenuHidden', menu.classList.contains("hidden"))
 });
 
 const body = document.querySelector('body');
